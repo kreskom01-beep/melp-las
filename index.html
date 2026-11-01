@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6d51b">
+  <meta name="description" content="Mel&P'las® — Una fruta con carácter. Conoce al Plátano Macho.">
+  <title>Mel&P'las® | Plátano Macho</title>
+  <style>
+    :root{--green:#075126;--deep:#063c20;--yellow:#ffd91b;--cream:#fff8d9;--red:#bd2b1e;--ink:#1b251b}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--yellow);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:760px;margin:auto;padding:18px}
+    .shell{overflow:hidden;background:var(--cream);border:5px solid var(--green);border-radius:28px;box-shadow:0 8px 0 rgba(6,60,32,.18)}
+    header{padding:24px 22px 12px;text-align:center;background:linear-gradient(145deg,#fffbe9,#ffe66a)}
+    .logo{display:block;width:min(100%,650px);height:auto;margin:0 auto 12px;border-radius:16px}
+    .eyebrow{margin:0 0 8px;color:var(--green);font-size:.78rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+    h1{margin:0;color:var(--green);font-size:clamp(2rem,8vw,3.6rem);line-height:1.02;font-weight:1000;letter-spacing:-.055em}
+    .intro{max-width:540px;margin:14px auto 20px;font-size:1.08rem;line-height:1.55}
+    .intro strong{color:var(--green)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 24px;border:3px solid var(--deep);border-radius:999px;background:var(--green);color:white;text-decoration:none;font-weight:900;font-size:1rem;box-shadow:0 4px 0 var(--deep);transition:transform .15s}
+    .btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--deep)}
+    .section{padding:28px 22px}
+    .section h2{margin:0 0 8px;color:var(--green);font-size:clamp(1.6rem,6vw,2.35rem);line-height:1.05}
+    .section p{line-height:1.6}
+    .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0}
+    .fact{padding:15px 14px;border:2px solid #e5c928;border-radius:16px;background:#fffdf2}
+    .fact span{display:block;color:#55704d;font-size:.75rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+    .fact strong{display:block;margin-top:5px;color:var(--green);font-size:1.1rem}
+    .how{margin-top:16px;padding:18px;border-radius:18px;background:#eff5d8;border-left:6px solid var(--green)}
+    .how h3{margin:0 0 8px;color:var(--green)}
+    .how ul{margin:0;padding-left:20px;line-height:1.75}
+    .warning{margin-top:14px;padding:15px;border:2px dashed var(--red);border-radius:16px;color:#79241c;background:#fff4ed;font-weight:700;line-height:1.5}
+    .disclaimer{margin:12px 0 0;color:#687061;font-size:.78rem;line-height:1.45}
+    footer{padding:18px;text-align:center;background:var(--green);color:#fff8d9;font-weight:800}
+    footer small{display:block;margin-top:5px;font-weight:500;opacity:.85}
+    @media(max-width:480px){.wrap{padding:9px}.shell{border-width:3px;border-radius:20px}header{padding:17px 14px 22px}.section{padding:24px 16px}.facts{gap:8px}.fact{padding:12px 10px}.fact strong{font-size:1rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="shell">
+      <header>
+        <p class="eyebrow">Una fruta con carácter</p>
+        <img class="logo" src="assets/logo-final.png" alt="Mel&P'las® — Plátano Macho, personaje con sombrero, lentes, bigote y botas">
+        <h1>¡Hola, campeón!</h1>
+        <p class="intro">Qué gusto tenerte por aquí. Soy el <strong>Plátano Macho</strong>: traigo estilo, botas y una personalidad que no cabe en el racimo.</p>
+        <a class="btn" href="#producto">Descubre mi producto ↓</a>
+      </header>
+
+      <section class="section" id="producto">
+        <p class="eyebrow">Ficha del producto</p>
+        <h2>Mucho gusto.<br>Soy el mero plátano.</h2>
+        <p>No soy cualquier fruta. Tengo presencia, buen humor y una cáscara que sabe cómo llamar la atención.</p>
+
+        <div class="facts" aria-label="Características ficticias del producto">
+          <div class="fact"><span>Doble sentido</span><strong>100%</strong></div>
+          <div class="fact"><span>Calibre</span><strong>Extraordinario</strong></div>
+          <div class="fact"><span>Maduración</span><strong>En su punto</strong></div>
+          <div class="fact"><span>Firmeza</span><strong>Superior</strong></div>
+          <div class="fact"><span>Buen humor</span><strong>Abundante</strong></div>
+          <div class="fact"><span>Presencia</span><strong>Imposible ignorar</strong></div>
+        </div>
+
+        <div class="how">
+          <h3>Modo de empleo</h3>
+          <ul>
+            <li>Consumir preferentemente sentado.</li>
+            <li>Manipular con firmeza y delicadeza.</li>
+            <li>Dejar madurar antes de utilizar.</li>
+            <li>No juzgar por la apariencia.</li>
+          </ul>
+        </div>
+        <div class="warning">⚠️ Advertencia: puede provocar sonrisas, miradas curiosas y comentarios fuera de lugar.</div>
+        <p class="disclaimer">*Esta ficha es humorística. Los porcentajes y características son ficticios y no representan información nutrimental real.</p>
+      </section>
+      <footer>Mel&P'las® <small>Una fruta con carácter. 🍌</small></footer>
+    </div>
+  </main>
+</body>
+</html>

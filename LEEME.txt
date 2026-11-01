@@ -1,0 +1,8 @@
+MEL&P'LAS® — sitio web estático
+
+Abre index.html para probar la página localmente.
+La carpeta assets contiene el logo final.
+
+Para publicarlo gratis puedes subir el contenido de esta carpeta a GitHub Pages.
+Después de publicar, usa la URL pública para crear el QR de la etiqueta.
+No generes el QR antes de tener la URL definitiva.
