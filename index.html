@@ -39,19 +39,19 @@
     .modo-mascot{display:block;width:clamp(150px,42%,235px);max-height:250px;height:auto;object-fit:contain;flex:0 0 auto;margin:0 auto}
         .how h3{margin:0 0 8px;color:var(--green)}
     .how ul{margin:0;padding-left:20px;line-height:1.75}.how ul li{font-size:1.08rem;font-weight:800;line-height:1.55;margin-bottom:10px}.how ul li:last-child{margin-bottom:0}
-    .warning{margin-top:14px;padding:15px;border:2px dashed var(--red);border-radius:16px;color:#79241c;background:#fff4ed;font-weight:700;line-height:1.5}
+    .warning{margin-top:14px;padding:15px;border:2px dashed var(--red);border-radius:16px;color:#79241c;background:#fff4ed;font-weight:700;font-size:.94rem;line-height:1.45}
     .disclaimer{margin:12px 0 0;color:#687061;font-size:.78rem;line-height:1.45}
     footer{padding:18px;text-align:center;background:var(--green);color:#fff8d9;font-weight:800}
     footer small{display:block;margin-top:5px;font-weight:500;opacity:.85}
     @media(max-width:480px){
       /* En móvil: las dos primeras instrucciones ocupan todo el ancho;
          la imagen acompaña únicamente a las dos últimas. */
-      .how-content{display:grid;grid-template-columns:minmax(0, .78fr) minmax(0, 1.22fr);grid-template-rows:auto auto auto auto;column-gap:7px;row-gap:5px;align-items:center}
+      .how-content{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);grid-template-rows:auto auto minmax(48px,auto) minmax(48px,auto);column-gap:7px;row-gap:5px;align-items:center}
       .how-content ul{display:contents}
       .how ul li{font-size:.82rem;line-height:1.25;margin:0;min-width:0}
-      .how ul li:nth-child(1){grid-column:1 / -1;grid-row:1;white-space:nowrap}
-      .how ul li:nth-child(2){grid-column:1 / -1;grid-row:2;white-space:nowrap}
-      .modo-mascot{grid-column:1;grid-row:3 / 5;width:100%;max-height:155px;height:100%;margin:0;transform:none;align-self:center}
+      .how ul li:nth-child(1){grid-column:1 / -1;grid-row:1;white-space:nowrap;display:block}
+      .how ul li:nth-child(2){grid-column:1 / -1;grid-row:2;white-space:nowrap;display:block}
+      .modo-mascot{grid-column:1;grid-row:3 / 5;width:100%;max-height:155px;height:100%;margin:0;transform:none;align-self:center;justify-self:center}
       .how ul li:nth-child(3){grid-column:2;grid-row:3;align-self:end}
       .how ul li:nth-child(4){grid-column:2;grid-row:4;align-self:start}
       .facts-layout{grid-template-columns:minmax(0,.68fr) minmax(0,1.32fr);gap:4px;align-items:center}
