@@ -40,7 +40,26 @@
     .disclaimer{margin:12px 0 0;color:#687061;font-size:.78rem;line-height:1.45}
     footer{padding:18px;text-align:center;background:var(--green);color:#fff8d9;font-weight:800}
     footer small{display:block;margin-top:5px;font-weight:500;opacity:.85}
-    @media(max-width:480px){.how-content{gap:6px}.modo-mascot{width:46%;max-height:210px}.how-content ul{font-size:.92rem}.facts-layout{grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:7px}.facts{gap:6px}.fact{padding:8px 7px}.wrap{padding:9px}.shell{border-width:3px;border-radius:20px}header{padding:17px 14px 22px}.section{padding:24px 16px}.facts{gap:8px}.fact{padding:12px 10px}.fact strong{font-size:1rem}}
+    @media(max-width:480px){
+      .how-content{gap:8px;align-items:center}
+      .modo-mascot{width:40%;max-height:190px}
+      .how-content ul{font-size:.84rem;line-height:1.35;padding-left:17px}
+      .how ul li{font-size:.88rem;line-height:1.35;margin-bottom:7px}
+      .facts-layout{grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:6px}
+      .facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+      .fact{min-width:0;padding:8px 6px;overflow-wrap:anywhere}
+      .fact span{font-size:.66rem;letter-spacing:.035em}
+      .fact strong{font-size:.82rem;line-height:1.15;overflow-wrap:anywhere}
+      .wrap{padding:9px}.shell{border-width:3px;border-radius:20px}
+      header{padding:17px 14px 22px}.section{padding:24px 16px}
+    }
+    @media(max-width:360px){
+      .facts-layout{grid-template-columns:minmax(0,.68fr) minmax(0,1.32fr);gap:5px}
+      .fact{padding:7px 5px}
+      .fact strong{font-size:.76rem}
+      .how-content ul{font-size:.8rem}
+      .how ul li{font-size:.82rem}
+    }
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
   </style>
 </head>
